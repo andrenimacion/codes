@@ -1,0 +1,49 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.logo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24pt;
+}
+
+#supmenu{
+    font-size: 10pt;
+    color: yellowgreen;
+    background-color: rgb(12, 60, 61);
+}
+
+#supmenu, a{
+    color: yellowgreen;
+    transition: ease all 1s;
+}
+#supmenu, a:hover{
+    text-decoration: none;
+    color: white;
+    transition: ease all 0.5s;
+}
+@media only screen and (max-width: 600px){   
+.areadetrabajo{
+    width: 100%;
+} 
+}
+#dasboard1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-shrink: initial;
+}
+
+.areadetrabajo{
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: solid 0.8px rgb(255, 255, 255);
+    border-style: groove;
+    box-shadow: 0px 0px 10px rgba(75,75,75,0.4);;
+    border-radius:  5px;
+    margin-top: 10px;
+}
