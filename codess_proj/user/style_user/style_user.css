@@ -1,0 +1,56 @@
+#ModalLog {
+    background-image: url('wall-papaer.jpg');
+    background-size: 100% 135%;
+    background-position: 0px -150px;
+    color: yellowgreen;
+}
+
+#ModalSign {
+    background-image: url('wall-papaer.jpg');
+    background-size: 100% 135%;
+    background-position: 0px -150px;
+    color: yellowgreen;
+}
+
+#modalDialog {
+    background: transparent;
+    border: none;
+}
+
+input:focus,
+input.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-footer {
+    border: none;
+}
+
+#modalContent {
+    border: none;
+    background: transparent;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    opacity: 0.8;
+    transition: ease all 1s;
+    border-bottom: solid 2px yellowgreen;
+}
+
+.form-control:hover {
+    background: transparent;
+    border: none;
+    opacity: 1;
+    transition: ease all 1s;
+    border-bottom: solid 2px yellowgreen;
+}
