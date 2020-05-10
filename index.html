@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>White | responsive bootstrap3 html5 one page template</title>
+    <title>CODES</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -18,8 +18,10 @@
     <link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="fontello/css/fontello.css" rel="stylesheet" type="text/css" />
 
     <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
@@ -112,6 +114,7 @@
                             <nav class="navmenu center">
                                 <ul>
                                     <li class="first active scroll_btn"><a href="#home">Home</a></li>
+                                    <li class="scroll_btn"><a href="#promo" style="color: palevioletred; font-size: 12pt;">FELIZ DÍA MAMÁ</a></li>
                                     <li class="scroll_btn"><a href="#about">Acerca de Nosotros</a></li>
                                     <li class="scroll_btn"><a href="#projects">Proyectos</a></li>
                                     <!-- <li class="scroll_btn"><a href="#team">Team</a></li> -->
@@ -187,6 +190,39 @@
             </section>
             <!-- //HOME -->
 
+            <section class="container-fluid fadeInLeft fast" id="promo">
+
+                <div class="formulario">
+                    <div id="titleForm">
+                        Feliz Día Mamá
+                    </div>
+                    <span class="icon-warning mt-3 mb-3" style="color:rgb(223, 26, 59); font-size: 10pt;"> Debes suscribirte y nos pondremos en contacto contigo además recibirás un código para acceder a tu premio
+                        cuando lo veas necesario <strong> | </strong> Los planes de la promoción se enviarán directamente al email que proporciones así podrás elegir el más conveniente para tu negocio. 
+                    </span>
+                    <hr>
+                    <form method="POST" action="sendRequest.php">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" requerid aria-required="true">Email:<span style="color: red;">*</span></label>
+                            <input type="email" placeholder="Ingresa tu email" style="padding: 15px; font-size: 12pt; background-color: #FFD5EF; border-bottom: rgb(223, 26, 59);" class="form-control" id="exampleInputEmail1" name="emailSend" aria-describedby="emailHelp">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="nameUser">Nombre:</label>
+                            <input type="text" required placeholder="Ingresa tu nombre" style="padding: 15px; font-size: 12pt; background-color: #FFD5EF; border-bottom: rgb(223, 26, 59);" class="form-control" id="nameUser" name="nameUser">
+                        </div>
+                        <div class="form-group">
+                            <label for="emprendimiento" aria-required="true">Emprendimiento: <span style="color: red;">*</span></label>
+                            <input type="text" required placeholder="Ingresa tu emprendimiento para ayudarte" style="padding: 15px; font-size: 12pt;    background-color: #FFD5EF; border-bottom: rgb(223, 26, 59);" class="form-control" id="emprendimiento" name="emprendimiento">
+                        </div>
+                        <div class="form-group">
+                            <label for="celular" aria-required="true">Celular: <span style="color: red;">*</span></label>
+                            <input type="text" required placeholder="Ingresa tu celular para escribirte por whatsapp" style="padding: 15px; font-size: 12pt; 
+                                background-color: #FFD5EF; border-bottom: rgb(223, 26, 59);" class="form-control" id="celular" name="celular">
+                        </div>
+                        <button type="submit" id="btnSub"><span class="icon-gift"></span>Recibir Premio</button>
+                    </form>
+                </div>
+            </section>
 
             <!-- ABOUT -->
             <section id="about">
